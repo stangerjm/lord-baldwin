@@ -26,7 +26,7 @@ module.exports = [
      his childhood, whenever the opportunity presented itself, he would immerse himself into
      playing and learning more about the instrument. During recesses and lunch breaks at school,
      instead of spending time on the playgrounds or in the cafeterias, he could be found composing
-     new material or playing and singing new lyrics to some new song he’d written.`
+     new material or playing and singing new lyrics to some new song he’d written.`,
   ],
   [
     `In 1971, while working at Burger Chef, a local fast food restaurant a block from Portland State
@@ -53,7 +53,7 @@ module.exports = [
     from him three months later. Unfortunately, he had little money to replace the instrument and
     it was almost a year later before he could afford to purchase another guitar; a 1963 Fender
     acoustic. It was with this guitar that Lord Baldwin learned how to play, and of which he composed
-    a healthy library of songs.`
+    a healthy library of songs.`,
   ],
   [
     `While Lord Baldwin struggled (in vain) to work his way up in his new occupation as a driver of
@@ -74,7 +74,7 @@ module.exports = [
      as a funeral director and embalmer, he reevaluated himself, his priorities in life, ultimately
      realizing the blessings and strengths of his family and friends. It was then that his own special
      style began to surface. He started to see himself and his original but eclectic material from a
-     different perspective, and he viewed his material with a new sense of value.`
+     different perspective, and he viewed his material with a new sense of value.`,
   ],
   [
     `Songs began to flow out, even in his dreams, and he was wise enough to take the time and document
@@ -100,7 +100,7 @@ module.exports = [
     `Lord Baldwin borrowed a keyboard from Diane’s Cousin Martha where he was able to add a percussion
     of sorts, along with keyboard and organ music to grace his songs. The Keyboard was cheap and had a
     funky, plastic sound to it, but he nevertheless used it to its capacity and embellished six albums
-    with its sounds before Cousin Martha asked for it back.`
+    with its sounds before Cousin Martha asked for it back.`,
   ],
   [
     `In May of 1992, Lord Baldwin lost his three-year-old son, Christopher Michael, which sent him into
@@ -125,7 +125,7 @@ module.exports = [
     prolifically writing songs and lyrics. While writing and recording songs, many musical ideas came
     to Lord Baldwin that he recorded to maybe find words for at a later time. He recorded six albums of
     these musical pieces, a few of which were later converted with lyrics. More material came to him and
-    by 1994 more than half of each album was graced with new songs.`
+    by 1994 more than half of each album was graced with new songs.`,
   ],
   [
     `In 1994 he began writing short stories about his life and times as a young Boy Scout in 1963. When
@@ -145,11 +145,11 @@ module.exports = [
     `After getting much more favorable reviews on Heads, or Tales from the Summer Of Love, Lord Baldwin
     was encouraged to go back and rewrite the first book, Stepping Between The Ants. The rewrite took
     another two years and eventually was available in the summer of 2011. After he finished that project,
-    Lord Baldwin went back to recording, and continues to write songs to the present day.`
+    Lord Baldwin went back to recording, and continues to write songs to the present day.`,
   ],
   [
     `Lord Baldwin has had many performances, headlined benefit concerts and made appearances on radio and
     television.`,
-    ` With the help of his friend, Gregory Flothe, this web site became a reality.`
-  ]
+    'With the help of his friend, Gregory Flothe, this web site became a reality.',
+  ],
 ];

@@ -2,7 +2,7 @@
   <article>
     <header>
       <h1>Biography</h1>
-      <img src="../assets/CLB.jpg" alt="">
+      <img src="../assets/images/CLB.jpg" alt="">
     </header>
     <section v-for="(entry, idx) in bio" :key="idx">
       <hr v-if="idx !== 0">
@@ -14,14 +14,15 @@
 </template>
 
 <script>
-import bio from "../content/bio";
+import bio from '../content/bio';
+
 export default {
-  name: "baldwin-bio",
+  name: 'baldwin-bio',
   computed: {
     bio() {
       return bio;
-    }
-  }
+    },
+  },
 };
 </script>
 

@@ -1,7 +1,7 @@
 <template>
   <article>
     <h1>Contact</h1>
-    <img src="../assets/LBContact.png" alt="Lord Baldwin">
+    <img src="../assets/images/LBContact.png" alt="Lord Baldwin">
     <p>
       Lord Baldwin is available at his E-mail address:
       <a href="mailto:lordbaldwin@yahoo.com">lordbaldwin@yahoo.com</a>
@@ -16,7 +16,7 @@
 
 <script>
 export default {
-  name: "baldwin-contact"
+  name: 'baldwin-contact',
 };
 </script>
 

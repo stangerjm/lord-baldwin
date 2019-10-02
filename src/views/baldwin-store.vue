@@ -11,15 +11,15 @@
        <p>Music available on Bandcamp includes hit records such as: </p>
        <section>
          <h4>World On Fire</h4>
-         <img src="../assets/World-On-Fire.jpg" alt="World On Fire">
+         <img src="../assets/images/World-On-Fire.jpg" alt="World On Fire">
        </section>
        <section>
          <h4>Eccentricity</h4>
-         <img src="../assets/Eccentricity.jpg" alt="Eccentricity">
+         <img src="../assets/images/Eccentricity.jpg" alt="Eccentricity">
        </section>
        <section>
          <h4>Addicted to the Machine</h4>
-         <img src="../assets/Addicted-To-The-Machine.jpg" alt="Addicted to the Machine">
+         <img src="../assets/images/Addicted-To-The-Machine.jpg" alt="Addicted to the Machine">
        </section>
        <p>and more!</p>
     </section>
@@ -47,8 +47,8 @@
 
 <script>
 export default {
-  name: "baldwin-store"
-}
+  name: 'baldwin-store',
+};
 </script>
 
 <style>

@@ -1,45 +1,55 @@
-import Vue from "vue";
-import VueRouter from "vue-router";
+import Vue from 'vue';
+import VueRouter from 'vue-router';
 
 Vue.use(VueRouter);
 
 export default new VueRouter({
-  mode: "history",
+  mode: 'history',
   routes: [
     {
-      path: "/",
-      name: "Home",
-      component: () => import("../views/home")
+      path: '/',
+      name: 'Home',
+      component: () => import('../views/home'),
     },
     {
-      path: "/music",
-      name: "Music",
-      component: () => import("../views/baldwin-music")
+      path: '/music',
+      name: 'Music',
+      component: () => import('../views/baldwin-music'),
     },
     {
-      path: "/bio",
-      name: "Bio",
-      component: () => import("../views/baldwin-bio")
+      path: '/archive',
+      name: 'Archive',
+      component: () => import('../views/baldwin-archive'),
     },
     {
-      path: "/contact",
-      name: "Contact",
-      component: () => import("../views/baldwin-contact")
+      path: '/bio',
+      name: 'Bio',
+      component: () => import('../views/baldwin-bio'),
     },
     {
-      path: "/news",
-      name: "News",
-      component: () => import("../views/baldwin-news")
+      path: '/contact',
+      name: 'Contact',
+      component: () => import('../views/baldwin-contact'),
     },
     {
-      path: "/store",
-      name: "Store",
-      component: () => import("../views/baldwin-store")
+      path: '/news',
+      name: 'News',
+      component: () => import('../views/baldwin-news'),
     },
     {
-      path: "/writing",
-      name: "Writing",
-      component: () => import("../views/baldwin-writing")
-    }
-  ]
+      path: '/store',
+      name: 'Store',
+      component: () => import('../views/baldwin-store'),
+    },
+    {
+      path: '/writing',
+      name: 'Writing',
+      component: () => import('../views/baldwin-writing'),
+    },
+    {
+      path: '/album/:id',
+      name: 'Album',
+      component: () => import('../views/album/album-details'),
+    },
+  ],
 });
