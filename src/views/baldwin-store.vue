@@ -11,7 +11,7 @@
        <p>Music available on Bandcamp includes hit records such as: </p>
        <section>
          <h4>World On Fire</h4>
-         <img src="../assets/images/World-On-Fire.jpg" alt="World On Fire">
+         <img src="../assets/images/WorldOnFire.jpg" alt="World On Fire">
        </section>
        <section>
          <h4>Eccentricity</h4>
@@ -19,7 +19,7 @@
        </section>
        <section>
          <h4>Addicted to the Machine</h4>
-         <img src="../assets/images/Addicted-To-The-Machine.jpg" alt="Addicted to the Machine">
+         <img src="../assets/images/AddictedToTheMachine.jpg" alt="Addicted to the Machine">
        </section>
        <p>and more!</p>
     </section>

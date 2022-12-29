@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <baldwin-nav />
+    <baldwin-nav class="baldwin-main--nav" />
 
     <div class="baldwin-main">
       <h1 class="baldwin-main--title">Lord Baldwin</h1>
@@ -33,6 +33,8 @@ body {
 }
 
 #app {
+  display: flex;
+  flex-direction: column;
   height: 100%;
 }
 
@@ -42,10 +44,17 @@ body {
 }
 
 .baldwin-main {
-  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.baldwin-main--nav {
+  flex-shrink: 0;
 }
 
 .baldwin-main--content {
   padding: 10px;
+  flex: 1;
 }
 </style>

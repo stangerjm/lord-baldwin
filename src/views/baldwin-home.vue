@@ -36,15 +36,17 @@ export default {
 
   .baldwin-home--music {
     display: grid;
+    grid-gap: 4rem;
     grid-template-areas:
-      "album1 . album2"
-      ". album3 ."
-      "album4 . album5";
+      "album1 album2 album3"
+      "album4 album5 album6"
+      "album7 album8 album9";
+    padding: 2rem;
   }
 
   .baldwin-home--album {
-    max-width: 10rem;
-    box-shadow: 0 0 10px 2px #fff;
+    width: 8rem;
+    box-shadow: 0 0 3px 1px #fff;
   }
 
   .baldwin-home--album1 {
@@ -54,20 +56,44 @@ export default {
 
   .baldwin-home--album2 {
     grid-area: album2;
-    transform: rotate(45deg);
+    transform: translateY(-2rem);
   }
 
   .baldwin-home--album3 {
     grid-area: album3;
+    transform: rotate(45deg);
   }
 
   .baldwin-home--album4 {
     grid-area: album4;
-    transform: rotate(-45deg);
+    border-radius: 5rem;
+    transform: translateX(-2rem);
   }
 
   .baldwin-home--album5 {
     grid-area: album5;
+    border-radius: 1.2rem;
+    transform: scale(2.3);
+  }
+
+  .baldwin-home--album6 {
+    grid-area: album6;
+    border-radius: 5rem;
+    transform: translateX(2rem);
+  }
+
+  .baldwin-home--album7 {
+    grid-area: album7;
+    transform: rotate(-45deg);
+  }
+
+  .baldwin-home--album8 {
+    grid-area: album8;
+    transform: translateY(2rem);
+  }
+
+  .baldwin-home--album9 {
+    grid-area: album9;
     transform: rotate(45deg);
   }
 </style>

@@ -3,7 +3,7 @@
     <h1>This just out!</h1>
     <section>
       <h3>Now Available</h3>
-      <img src="../assets/images/Addicted-To-The-Machine.jpg" alt="Addicted to the Machine">
+      <img src="../assets/images/AddictedToTheMachine.jpg" alt="Addicted to the Machine">
     </section>
     <section>
       <h3>This is the first new album by Lord Baldwin in years!</h3>
