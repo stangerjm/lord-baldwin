@@ -1,13 +1,18 @@
 <template>
   <div>
     <h1>Archive</h1>
-
-    <img v-for="album in albums"
-         width="200"
-         @click="goToAlbumDetails(album.id)"
-         :key="album.id"
-         :src="album.img"
-         :alt="album.title">
+    <a href="#"
+       role="button"
+       @click="(e) => {
+          e.preventDefault();
+          goToAlbumDetails(album.id);
+        }"
+        v-for="album in albums"
+        :key="album.id">
+      <img width="200"
+           :src="album.img"
+           :alt="album.title">
+    </a>
   </div>
 </template>
 

@@ -2,17 +2,18 @@
   <div class="album-details">
     <button @click="goBack">Back</button>
 
-    <baldwin-album :album="album"></baldwin-album>
+    <baldwin-album :v-if="album != null" :album="album" />
   </div>
 </template>
 
 <script>
+import { defineAsyncComponent } from 'vue';
 import albums from '../../content/albums';
 
 export default {
   name: 'album-details',
   components: {
-    BaldwinAlbum: () => import('../../components/baldwin-album'),
+    BaldwinAlbum: defineAsyncComponent(() => import('../../components/baldwin-album')),
   },
   computed: {
     albumId() {
@@ -24,7 +25,7 @@ export default {
   },
   methods: {
     goBack() {
-      this.$router.push('/music');
+      this.$router.push('/archive');
     },
   },
 };

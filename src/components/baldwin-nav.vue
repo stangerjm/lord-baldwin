@@ -8,13 +8,11 @@
     <ul class="baldwin-nav--list"
         :class="{ 'baldwin-nav--showNav': displayCollapsedNav }">
       <router-link class="baldwin-nav--item" :to="{ name: 'Home' }">Home</router-link>
-      <router-link class="baldwin-nav--item" :to="{ name: 'Music' }">Music</router-link>
       <router-link class="baldwin-nav--item" :to="{ name: 'News' }">News</router-link>
       <router-link class="baldwin-nav--item" :to="{ name: 'Store' }">Store</router-link>
       <router-link class="baldwin-nav--item" :to="{ name: 'Writing' }">Writing</router-link>
       <router-link class="baldwin-nav--item" :to="{ name: 'Bio' }">Bio</router-link>
       <router-link class="baldwin-nav--item" :to="{ name: 'Archive' }">Archive</router-link>
-      <router-link class="baldwin-nav--item" :to="{ name: 'Contact' }">Contact</router-link>
     </ul>
   </nav>
 </template>
