@@ -25,7 +25,7 @@ export default {
   },
   methods: {
     goBack() {
-      this.$router.push('/archive');
+      this.$router.go(-1);
     },
   },
 };

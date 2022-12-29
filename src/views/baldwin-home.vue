@@ -1,5 +1,6 @@
 <template>
   <div class="baldwin-home">
+    <h1 class="baldwin-home--title">Lord Baldwin</h1>
     <h1>Welcome to Lord Baldwin's site!</h1>
     <div class="baldwin-home--music">
       <template v-for="({ img, id }, idx) in LatestAlbums" :key="id">
@@ -32,6 +33,11 @@ export default {
     height: 100%;
     flex-direction: column;
     align-items: center;
+  }
+
+  .baldwin-home--title {
+    font-size: 42px;
+    text-align: center;
   }
 
   .baldwin-home--music {
