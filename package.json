@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@babel/eslint-parser": "^7.19.1",
+    "circletype": "^2.3.0",
     "sass": "^1.57.1",
     "vue": "^3.2.45",
     "vue-router": "^4.1.6"
