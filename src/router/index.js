@@ -1,15 +1,12 @@
-import Vue from 'vue';
-import VueRouter from 'vue-router';
+import { createRouter, createWebHashHistory } from 'vue-router';
 
-Vue.use(VueRouter);
-
-export default new VueRouter({
-  mode: 'history',
+export default createRouter({
+  history: createWebHashHistory(),
   routes: [
     {
       path: '/',
       name: 'Home',
-      component: () => import('../views/home'),
+      component: () => import('../views/baldwin-home'),
     },
     {
       path: '/music',

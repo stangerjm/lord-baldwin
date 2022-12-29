@@ -6,14 +6,12 @@
 
     <section class="baldwin-music--latest">
 
-      <template v-for="({ title, img, id }, idx) in LatestAlbums">
+      <template v-for="({ img, id }, idx) in LatestAlbums" :key="id">
 
         <div v-if="shouldRenderTopSpacer(idx)"
-             :key="`spacer-${id}`"
              class="baldwin-music--spacer"></div>
 
         <img :src="img"
-             :key="id"
              class="baldwin-music--albumImg"
              :class="`baldwin-music--album${idx + 1}`"
              @click="goToAlbum(id)" />
