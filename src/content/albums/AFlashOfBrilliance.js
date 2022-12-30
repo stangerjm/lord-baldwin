@@ -1,7 +1,7 @@
 import AFlashOfBrilliance from '../../assets/images/52a - A Flash Of Brilliance.jpg';
 
 export default {
-  id: 7,
+  id: 6,
   title: 'A Flash Of Brilliance',
   img: AFlashOfBrilliance,
   songs: [

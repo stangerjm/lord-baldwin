@@ -4,11 +4,18 @@
     <h1>Welcome to Lord Baldwin's site!</h1>
     <div class="baldwin-home--music">
       <template v-for="({ img, id }, idx) in LatestAlbums" :key="id">
-        <img
-          :src="img"
-          :class="`baldwin-home--album${idx + 1}`"
-          class="baldwin-home--album"
-        />
+        <a href="#"
+           @click="(e) => {
+             e.preventDefault();
+             this.$router.push(`/album/${id}`);
+           }"
+        >
+          <img
+            :src="img"
+            :class="`baldwin-home--album${idx + 1}`"
+            class="baldwin-home--album"
+          />
+        </a>
       </template>
     </div>
   </div>
@@ -101,5 +108,40 @@ export default {
   .baldwin-home--album9 {
     grid-area: album9;
     transform: rotate(45deg);
+  }
+
+  @media screen and (max-width: 599px) {
+    .baldwin-home--music {
+      display: grid;
+      grid-gap: 4rem;
+      grid-template-areas:
+        "album1"
+        "album2"
+        "album3"
+        "album4"
+        "album5"
+        "album6"
+        "album7"
+        "album8"
+        "album9";
+      padding: 2rem;
+    }
+
+    .baldwin-home--album {
+      width: 15rem;
+    }
+
+    .baldwin-home--album1,
+    .baldwin-home--album2,
+    .baldwin-home--album3,
+    .baldwin-home--album4,
+    .baldwin-home--album5,
+    .baldwin-home--album6,
+    .baldwin-home--album7,
+    .baldwin-home--album8,
+    .baldwin-home--album9 {
+      transform: none;
+      border-radius: 0;
+    }
   }
 </style>

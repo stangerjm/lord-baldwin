@@ -1,7 +1,7 @@
 import AlterEgos from '../../assets/images/AlterEgosSecretIdentities.jpg'
 
 export default {
-  id: 10,
+  id: 8,
   title: 'Alter Egos & Secret Identities',
   img: AlterEgos,
   songs: [

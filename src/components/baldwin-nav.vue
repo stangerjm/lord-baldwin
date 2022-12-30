@@ -11,6 +11,7 @@
       <router-link class="baldwin-nav--item" :to="{ name: 'News' }">News</router-link>
       <router-link class="baldwin-nav--item" :to="{ name: 'Store' }">Store</router-link>
       <router-link class="baldwin-nav--item" :to="{ name: 'Writing' }">Writing</router-link>
+      <router-link class="baldwin-nav--item" :to="{ name: 'Downloads' }">Downloads</router-link>
       <router-link class="baldwin-nav--item" :to="{ name: 'Bio' }">Bio</router-link>
       <router-link class="baldwin-nav--item" :to="{ name: 'Archive' }">Archive</router-link>
     </ul>

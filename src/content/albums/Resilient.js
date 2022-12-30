@@ -1,7 +1,7 @@
 import ResilientFront from '../../assets/images/Resilient.jpg';
 
 export default {
-  id: 12,
+  id: 13,
   title: 'Resilient',
   img: ResilientFront,
   songs: [

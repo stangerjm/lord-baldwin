@@ -1,7 +1,7 @@
 import Eccentricity from '../../assets/images/Eccentricity.jpg'
 
 export default {
-  id: 8,
+  id: 12,
   title: 'Eccentricity',
   img: Eccentricity,
   songs: [

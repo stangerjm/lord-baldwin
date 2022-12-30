@@ -34,6 +34,11 @@ export default createRouter({
       component: () => import('../views/baldwin-news'),
     },
     {
+      path: '/downloads',
+      name: 'Downloads',
+      component: () => import('../views/baldwin-downloads'),
+    },
+    {
       path: '/store',
       name: 'Store',
       component: () => import('../views/baldwin-store'),
