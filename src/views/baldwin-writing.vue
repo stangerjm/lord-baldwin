@@ -14,7 +14,7 @@
     <img class="baldwin-writing--ants4" src="../assets/images/SteppingBetweenTheAnts4.png" />
     <section class="baldwin-writing--resilient">
       <h3>Resilient</h3>
-      <img src="../assets/images/ResilientTheMusical.jpg" />
+      <img src="../assets/images/ResilientTheMusical.png" />
     </section>
     <h3 class="baldwin-writing--letters">
       <span ref="lettersRow1" class="baldwin-writing--letters__row1">From the Lost</span>

@@ -23,7 +23,7 @@
         <h3 class="baldwin-downloads--header__small">In PDF format</h3>
       </section>
       <section class="baldwin-downloads--resilientMusical">
-        <img class="baldwin-downloads--musical" src="../assets/images/ResilientTheMusical.jpg" />
+        <img class="baldwin-downloads--musical" src="../assets/images/ResilientTheMusical.png" />
         <h3 class="baldwin-downloads--musicalTitle baldwin-downloads--header__small">
           <span>"Resilient - The Musical"</span>
           <span>Web-based episodes about the houseless</span>
