@@ -1,7 +1,7 @@
 import AddictedToTheMachine from '../../assets/images/AddictedToTheMachine.jpg'
 
 export default {
-  id: 7,
+  id: 'd3a265fe-3d17-4cce-8a33-c737f6af1bba',
   title: 'AddictedToTheMachine',
   img: AddictedToTheMachine,
   songs: [

@@ -3,7 +3,7 @@ import LonelyTooLongClip from '../../assets/clips/101 LonelyTooLongClip.mp3';
 import SoCloseClip from '../../assets/clips/102 SoCloseAndYetSoFarClip.mp3';
 
 export default {
-  id: 1,
+  id: '98bfcbe3-4dcf-45fb-893d-a32e7fc2348e',
   title: 'Lonely Too Long',
   img: LonelyTooLongImg,
   songs: [

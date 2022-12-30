@@ -1,7 +1,7 @@
 import DejandoLaGalaxia from '../../assets/images/DejandoLaGalaxia.jpg'
 
 export default {
-  id: 9,
+  id: '0d1ba374-120c-407d-a12f-fef025e19050',
   title: 'Dejando La Galaxia',
   img: DejandoLaGalaxia,
   songs: [

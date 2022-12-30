@@ -3,7 +3,7 @@ import AWorkingManClip from '../../assets/clips/103 AWorkingManClip.mp3';
 import InTheHeart from '../../assets/clips/104 InTheHeartOfTheFamilyClip.mp3';
 
 export default {
-  id: 2,
+  id: '6f960539-360b-4c53-a88b-6c9add0db688',
   title: 'A Working Man',
   img: AWorkingMan,
   songs: [

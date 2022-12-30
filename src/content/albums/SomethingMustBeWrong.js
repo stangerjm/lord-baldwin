@@ -1,7 +1,7 @@
 import SomethingMustBeWrongImg from '../../assets/images/04a - Something Must Be Wrong.jpg';
 
 export default {
-  id: 4,
+  id: '16cf4be3-4315-4964-ab7f-2619440f08be',
   title: 'Something Must Be Wrong',
   img: SomethingMustBeWrongImg,
   songs: [

@@ -1,7 +1,7 @@
 import ForeverFriends from '../../assets/images/03a - Forever Friends.jpg';
 
 export default {
-  id: 3,
+  id: 'b897f37c-3747-48a9-a911-2c28f1e09550',
   title: 'Forever Friends',
   img: ForeverFriends,
   songs: [

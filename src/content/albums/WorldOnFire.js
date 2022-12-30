@@ -1,7 +1,7 @@
 import WorldOnFire from '../../assets/images/WorldOnFire.jpg'
 
 export default {
-  id: 10,
+  id: '4022ea4f-f3ee-4b1c-9fed-151c949b7aa0',
   title: 'World On Fire',
   img: WorldOnFire,
   songs: [
